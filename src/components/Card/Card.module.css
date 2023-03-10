@@ -1,0 +1,71 @@
+.card {
+  padding: 30px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  display: flex;
+  box-shadow: hsla(180, 29%, 50%, 0.35) 0px 5px 15px;
+  border-radius: 6px;
+  border-left: 4px solid #f4f4f4;
+  min-width: fit-content;
+}
+
+.featured {
+  border-left: 4px solid hsla(180, 29%, 50%);
+}
+
+.card_info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  min-width: fit-content;
+}
+
+.job_description {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: left;
+}
+.job_top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.company_name {
+  font-weight: 700;
+  color: hsl(180, 29%, 50%);
+}
+
+.tag {
+  color: #f4f4f4;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 5px 12px;
+  border-radius: 100px;
+  background-color: hsl(180, 29%, 50%);
+}
+
+.dark {
+  background-color: hsl(180, 14%, 20%);
+}
+.job_position {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.job_bottom {
+  display: flex;
+  gap: 10px;
+  font-size: 0.875rem;
+  color: hsl(180, 8%, 52%);
+}
+
+.filter_tag {
+  padding: 5px 10px;
+  background-color: hsl(180, 52%, 96%);
+  color: hsl(180, 29%, 50%);
+  border: transparent;
+  cursor: pointer;
+}
